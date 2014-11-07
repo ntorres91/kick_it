@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>KickIt</title>
+  <title>Kick It</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="row">
+    <div class="large-3 columns">
+      <h1><img src="http://lvsportsocial.com/wp-content/uploads/2014/06/the-history-of-soccer.jpg" width="700" height="400"/></h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="inline-list right">
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Sign Out</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <div class="row">    
+       
+     
+    <div class="large-9 push-3 columns">
+      
+      <h3> Kick It<small> Connecting Soccer Players</small></h3>
+      
+      <p> Gathering people all over the NYC area to play the wonderful game of soccer or fooball.  </p>
+        
+    </div>
+    
+     
+    <div class="large-3 pull-9 columns">
+        
+      <ul class="side-nav">
+        <li><a href="#">Queens</a></li>
+        <li><a href="#">Manhattan</a></li>
+        <li><a href="#">Brooklyn</a></li>
+        <li><a href="#">Bronx</a></li>
+      </ul>
+      
+      <p><img src="http://www.mapresources.com/media/catalog/product/N/Y/NYC-XX-983782_comp_4.jpg" width="700" height="400"/></p>
+        
+    </div>
+    
+  </div>
+    
+
 
 <%= yield %>
 
