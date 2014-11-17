@@ -1,11 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is KickIt the most awesome soccer web application in the world. 
 
-Things you may want to cover:
-
-* Ruby version
+Utilizing HTML5/CSS3 on the front end; Ruby V4.1 on Heroku on the back;
 
 * System dependencies
 
